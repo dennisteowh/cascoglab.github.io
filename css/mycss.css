@@ -1,0 +1,162 @@
+/* Took some inspiration from https://startbootstrap.com/template-categories/all/ */
+
+
+html,
+body {
+  /* height: 100%; */
+  /* The html and body elements cannot have any padding or margin. */
+  padding-top: 36px;
+}
+
+/* Wrapper for page content to push down footer */
+/*.wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;*/
+  /* Negative indent footer by it's height */
+  /*margin: 0 auto -60px;
+}*/
+
+/* Set the fixed height of the footer here */
+/*.push {
+  height: 60px;
+}*/
+
+
+
+/*.pagination {
+  margin-bottom: 15px;
+}
+*/
+
+
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 767px) {
+  /*.footer {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }*/
+}
+
+/* have the body padding only available on large screens */
+@media (min-width: 980px) {
+    .wrap > .container {
+    padding-top: 60px;
+  }
+}
+
+.container .credit {
+  margin: 20px 0;
+}
+
+code {
+  font-size: 0.80rem;
+}
+
+
+/*    -------- COLOR -------
+Color Scheme for Nautilus Yellow, from L to R (lightest to darkest)
+f5f1eb
+f5ddc4
+f2d68a
+f2c23d
+c4a07c
+cbd6cd
+*/
+
+body {
+  background-color: #f5f1eb;
+  color: #333333;
+}
+
+
+/*
+.navbar-fixed-top,
+.navbar-inner {
+  background-color: #000000;
+}
+*/
+/* original c4b4a9 */
+
+
+/*.footer {*/
+  /*background-color: #fafafa;*/ /* original f5f5f5 */
+/*}*/
+
+
+
+/* overwriting some of the color schemes */
+.bg-light {
+  background-color: #fafafa !important;
+}
+
+.navbar-light .navbar-text {
+  color: rgba(0.0, 0, 0, 0.5);
+}
+
+/*.publicationListDiv {
+  font-size: 0.8rem;
+}*/
+
+.hangingindent {
+  font-size: 0.9rem;
+  margin-bottom: 0rem;
+  padding-left: 1.5rem;
+  text-indent: -1.5rem;
+}
+
+.hangingindent-supplemental {
+  font-size: 0.8rem;
+  margin-top: 0rem;
+  padding-left: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.center-image {
+  /*margin-left: auto;
+  margin-right: auto;*/
+  display: block;
+  margin: 0 auto;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.img-profile {
+  max-width: 15rem;
+  max-height: 15rem;
+}
+
+.make-text-small {
+  font-size: 0.8rem;
+}
+
+.reference-supplemental {
+  font-size: 0.9rem;
+}
+
+.my-fig-caption {
+  font-size: 0.8rem;
+}
+
+
+.lab-member {
+  padding-bottom: 30px;
+  display: inline-block;
+  padding-left: 30px; 
+}
+
+.lab-member img {
+  width: 150px;
+  padding-bottom: 30px; }
+  @media screen and (min-width: 558px) {
+    .member img {
+      float: left;
+      padding-right: 40px; } 
+  }
+
+
+
