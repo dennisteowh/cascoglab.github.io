@@ -128,6 +128,16 @@ body {
 .img-profile {
   max-width: 15rem;
   max-height: 15rem;
+  border-radius: 20%;
+  position: relative;
+}
+
+.border-wrap { /*adds colored borders*/
+  max-width: 250px;
+  padding: 1rem;
+  position: relative;
+  background: linear-gradient(to right, darkblue, purple);
+  padding: 1px; /*varies border thickness*/
 }
 
 .make-text-small {
@@ -151,7 +161,7 @@ body {
 
 .lab-member img {
   width: 150px;
-  padding-bottom: 30px; }
+ /* padding-bottom: 30px;*/ }
   @media screen and (min-width: 558px) {
     .member img {
       float: left;
